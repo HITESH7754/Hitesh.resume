@@ -139,7 +139,7 @@ export const projects = [
 
 export const workData = [
   {
-    role: "React.js Developer (Intern)",
+    role: "React.js Developer    (Intern)",
     company: "Detechie.",
     duration: "Ausgust 2025 - Jan-2026",
     description:
@@ -147,7 +147,7 @@ export const workData = [
        Optimized UI components and fixed frontend bugs, improving performance and cross browser compatibility. 
         Integrated REST APIs and collaborated using Git and GitHub version control. 
         Solved 300+ output-based coding challenges, strengthening debugging and problem solving skills.`,
-    color: "purple"
+    color: "blue"
   },
 
 ];

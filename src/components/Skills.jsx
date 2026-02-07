@@ -15,7 +15,7 @@ const Skills = () => {
       <div className="container mx-auto px-6">
         {/* Heading */}
         <h2 className="text-3xl font-bold text-center mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-teal-400">
-          My Skills
+          My Skill
         </h2>
 
         {/* Subtitle */}

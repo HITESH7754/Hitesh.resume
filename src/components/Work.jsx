@@ -64,7 +64,7 @@ const Work = () => {
       id="work"
       className="py-20 bg-black-200"
     >
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 bg-black">
         <h2 className="text-3xl font-bold text-center mb-4 text-white">
           Work <span className="text-blue-400">Experience</span>
         </h2>

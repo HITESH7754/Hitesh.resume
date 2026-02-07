@@ -5,7 +5,9 @@
   font-family: Saira, sans-serif;
 }
 
-/* Global Theme */
+/* ======================
+   Global Theme
+====================== */
 @theme {
   --color-background: #0B0B0E;
   --color-foreground: #FFFFFF;
@@ -20,24 +22,28 @@
   --color-pink: #EC4899;
 }
 
-/* Typewriter Effect */
+/* ======================
+   Smooth Typewriter Effect
+====================== */
 .typewriter {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
   width: 0;
-  border-right: 0.15em solid var(--color-blue-400);
+  border-right: 2px solid var(--color-blue);
   animation:
-    typing 3s steps(22, end) forwards,
-    blink-caret 0.75s step-end infinite;
+    typing 3.5s cubic-bezier(0.4, 0, 0.2, 1) forwards,
+    blink-caret 1.2s ease-in-out infinite;
 }
 
+/* Typing animation */
 @keyframes typing {
   from { width: 0 }
   to { width: 16.5ch }
 }
 
+/* Smooth caret blink */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: var(--color-blue-400) }
+  0%, 100% { opacity: 0 }
+  50% { opacity: 1 }
 }

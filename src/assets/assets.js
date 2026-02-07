@@ -32,7 +32,7 @@ export const aboutInfo = [
     icon: FaCode,
     title: 'Clean Code',
     description: 'I write maintainable, efficient code following best practices and modern patterns.',
-    color: 'text-blue'
+    color: 'blue'
   }
 ];
 

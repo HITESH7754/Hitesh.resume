@@ -42,8 +42,4 @@
   to { width: 16.5ch }
 }
 
-/* Smooth caret blink */
-@keyframes blink-caret {
-  0%, 100% { opacity: 0 }
-  50% { opacity: 1 }
-}
+

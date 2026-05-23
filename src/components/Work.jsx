@@ -62,7 +62,7 @@ const Work = () => {
       transition={{ duration: 1, ease: 'easeOut' }}
       viewport={{ once: false, amount: 0.2 }}
       id="work"
-      className="py-20 bg-gray-900"
+     className="py-20 bg-gradient-to-br from-[#0B0B0E] via-[#111827] to-[#0B0B0E]"
     >
       <div className="container mx-auto px-6 ">
         <h2 className="text-3xl font-bold text-center mb-4 text-white">
@@ -78,7 +78,7 @@ const Work = () => {
             {workData.map((data, index) => (
               <div
                 key={index}
-                className="timeline-item relative pl-12 before:content-[' '] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-purple cursor-pointer hover:-translate-y-2 transition-all duration-300"
+                className="timeline-item relative pl-12 before:content-[' '] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-blue-500 cursor-pointer hover:-translate-y-2 transition-all duration-300"
               >
                 {/* DOT */}
                 <div className="absolute left-[-0.5rem] top-0 w-6 h-6 rounded-full bg-blue-400" />

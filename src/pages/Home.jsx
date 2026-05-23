@@ -10,7 +10,7 @@ import Contact from '../components/Contact'
 
 export const Home = () => {
   return (
-    <div>
+    <div className="bg-[#0B0B0E]">
       <Hero/>
       <About/>
       <Skills/>
